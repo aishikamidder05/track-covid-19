@@ -3,6 +3,7 @@ import { Cards, Chart, CountryPicker } from "../components";
 import styles from "../App.module.css";
 import { fetchData } from "../api";
 
+
 class About extends Component {
   state = {
     data: {},
